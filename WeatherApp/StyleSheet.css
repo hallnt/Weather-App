@@ -1,0 +1,27 @@
+﻿body {
+  background: -webkit-linear-gradient(#111111, #123333, #111111);
+  color: white;
+  text-align: center;
+}
+
+header {
+  font-size: 60px;
+}
+
+#weather {
+  margin-top: 10%;
+}
+
+#temp {
+  font-size: 25px;
+}
+
+#location {
+  font-size: 18px;
+}
+
+footer {    
+  position: absolute;
+  bottom: 5px;
+  margin: auto;
+}
