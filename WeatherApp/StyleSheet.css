@@ -8,7 +8,7 @@ header {
   font-size: 60px;
 }
 
-#weather {
+.weather {
   margin-top: 10%;
 }
 
@@ -20,8 +20,7 @@ header {
   font-size: 18px;
 }
 
-footer {    
+footer {
   position: absolute;
   bottom: 5px;
-  margin: auto;
 }

@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="StyleSheet.css" />
+    <Content Include="weatherScript.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
