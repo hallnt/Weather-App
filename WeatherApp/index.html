@@ -3,11 +3,11 @@
 <!--
     Author: Teleisha Hall
     App: Local weather app using geolocation data to display results
-    Date: May 22, 2016
-    Version: 1.2
+    Date: May 26, 2016
+    Version: 1.3
 -->
 <head>
-    <title>Weather App</title>    
+    <title>Show the Local Weather</title>    
     <!-- CSS/Bootstrap -->
 
     <!-- Latest compiled and minified CSS -->
@@ -20,17 +20,18 @@
 </head>
 
 <body>
-    <header>Weather App</header>
+    <h1 class="text-center">Local Weather</h1>
 
-    <!--Container to display weather data-->
-    <div class="weather">
-        <div id="weatherIcon"></div>
-        <p id="temp"></p>
+    <!-- Section to display weather data -->
+    <div class="well text-center" id="weather">
+        <p id="weatherIcon">i</p>
+        <p class="btn btn-primary" id="temp"></temp>
         <p id="location"></p>
         <p id="conditions"></p>
-    </div>
+        <p id="windSpeed"></p>
+    </div><!--/#weather-->
 
-    <footer">&copy 2016 - <a href="http://codepen.io/hallnt/full/jWGXRj" target="_blank">Teleisha Hall</a>.</footer>
+    <footer class="text-center">&copy 2016 - <a href="http://codepen.io/hallnt/full/jWGXRj" target="_blank">Teleisha Hall</a>.</footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
