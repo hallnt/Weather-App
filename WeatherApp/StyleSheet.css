@@ -1,24 +1,27 @@
 ﻿body {
-  background-size: 100%;  
-  font-family: san-serif;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  font-family: fantasy;
   font-size: 20px;
 }
 
 h1 {
-  color: #000;
+  color: orange;
   font-size: 40px; 
   margin-top: 30px;
 }
 #info {
-  color: #000;
+  color: orange;
 }
 
 .btn-default {
   color: #45a;
-  border: 1px solid #adf;
+  border: 2px dashed #f94;
   font-size: 22px;
 }
 .btn-primary {
+  border: 2px dashed white;
   font-size: 22px;
 }
 
